@@ -1,0 +1,177 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.header,
+.footer,
+.first {
+  background-color: #1F2937;
+}
+
+.header h2 {
+  color: #F9FAF8
+}
+
+.header ul {
+  list-style-type: none;
+  display: flex;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.header li {
+  color: #E5E7EB;
+}
+
+.header {
+  display: flex;
+  margin: 0;
+  padding: 12px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 70px;
+  flex-wrap: wrap;
+  flex-basis: 400px;
+}
+
+.wordage {
+  width: 500px;
+}
+
+.wordage h1 {
+  color: #F9FAF8;
+  font-size: 48px;
+  font-weight: 800;
+  margin: 0;
+
+}
+
+.wordage p {
+  color: #E5E7EB;
+  font-size: 18px;
+}
+
+.wordage button {
+  background-color: #3882F6;
+  color: white;
+  border-radius: 4px;
+  width: 100px;
+}
+
+.first img {
+  height: 300px;
+  width: 500px;
+  margin: 40px;
+}
+
+.second {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.second h2 {
+  font-weight: 800;
+  font-size: 36px;
+  color: #1F2937;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 16px;
+  width: 200px;
+  text-align: center;
+
+}
+
+.block img {
+  width: 100px;
+  height: 100px;
+  border-color: blue;
+  border-radius: 8px;
+}
+
+.third {
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  padding: 60px;
+  align-items: center;
+  justify-content: center;
+}
+
+#quote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2947;
+  max-width: 900px;
+}
+
+#speaker {
+  font-size: 20px;
+  font-style: italic;
+  color: #1F2947;
+  max-width: 600px;
+  align-self: flex-end;
+  padding-right: 250px;
+}
+
+.fourth {
+  background-color: white;
+  display: flex;
+  padding: 60px;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  background-color: #3882F6;
+  width: 900px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 40px;
+}
+.box button {
+  background-color: #3882F6;
+  border-radius: 8px;
+  color: white;
+  width: 100px;
+}
+
+#bold {
+  font-weight: 800px;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.footer {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+}
